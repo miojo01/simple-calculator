@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.boxicons.com/3.0.8/fonts/basic/boxicons.min.css" rel="stylesheet">
+    <title>Calculadora</title>
+</head>
+<body>
+    <div id="calculator-container">
+        <input type="text" id="display" readonly placeholder="0">
+        <div id="keyboard-container">
+            <button class="digit-button" style="background-color: gray;" data-value="backspace"><i class="bx bx-backspace"></i></button>
+            <button class="digit-button" style="background-color: gray;" data-value="AC">AC</button>
+            <button class="digit-button" style="background-color: gray;" data-value="%"><i class="bx bx-percentage"></i></button>
+            <button class="digit-button" style="background-color: orange;" data-value="/"><i class="bx bx-division"></i></button>
+
+            <button class="digit-button" data-value="7">7</button>
+            <button class="digit-button" data-value="8">8</button>
+            <button class="digit-button" data-value="9">9</button>
+            <button class="digit-button" style="background-color: orange;" data-value="*"><i class="bx bx-x"></i></button>
+
+            <button class="digit-button" data-value="4">4</button>
+            <button class="digit-button" data-value="5">5</button>
+            <button class="digit-button" data-value="6">6</button>
+            <button class="digit-button" style="background-color: orange;" data-value="-"><i class="bx bx-minus"></i></button>
+
+            <button class="digit-button" data-value="1">1</button>
+            <button class="digit-button" data-value="2">2</button>
+            <button class="digit-button" data-value="3">3</button>
+            <button class="digit-button" style="background-color: orange;" data-value="+"><i class="bx bx-plus"></i></button>
+
+            <button class="digit-button" id="zero" data-value="0">0</button>
+            <button class="digit-button" data-value=".">.</button>
+            <button class="digit-button" style="background-color: orange;" data-value="="><i class="bx bx-equal"></i></button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
